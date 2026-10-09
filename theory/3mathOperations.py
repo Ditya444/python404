@@ -123,3 +123,58 @@ result_2 = pow(2, 3, 5)  # (2 ** 3) % 5
 print(f"2 raised to the power of 3 modulo 5 is {result_2}") # Output: 2 raised to the power of 3 modulo 5 is 3
 
 
+
+# Augmented Assignment Operators
+print("\nAugmented Assignment Operators:")
+
+print("Addition augmented assignment operator (+=):")
+aug_var = 10
+aug_var += 5  # Equivalent to aug_var = aug_var + 5
+print(f"After += operation, aug_var = {aug_var}") # Output: 15
+
+aug_var = aug_var + 5
+print(f"equivalent operation, aug_var = {aug_var}") # Output: 20
+
+print ("\nSubtraction augmented assignment operator (-=):")
+count = 14 
+count -= 3  # Equivalent to count = count - 3
+print(f"After -= operation, count = {count}") # Output: 11
+
+print("\nMultiplication augmented assignment operator (*=):")
+product = 65
+product *= 7 # Equivalent to product = product * 7
+print(f"After *= operation, product = {product}") # Output: 455
+
+print("\nDivision augmented assignment operator (/=):")
+price = 100
+price /= 4 # Equivalent to price = price / 4
+print(f"After /= operation, price = {price}") # Output: 25.0
+
+print("\nFloor division augmented assignment operator (//=):")
+total_pages = 23
+total_pages //= 5  # Equivalent to total_pages = total_pages // 5
+print(f"After //= operation, total_pages = {total_pages}") # Output: 4
+
+print("\nModulus augmented assignment operator (%=):")
+bits = 35
+bits %= 2
+print(f"After %= operation, bits = {bits}") # Output: 1
+
+power = 2
+power **= 3  # Equivalent to power = power ** 3
+print(f"After **= operation, power = {power}") # Output: 8
+
+print("\nAugmented assignment on string concatenation:")
+message = "Hello, "
+message += "World!"
+print(f"After += operation, message = {message}") # Output: Hello, World!
+
+print("\nAugmented multiplication on string:")
+greet = 'Hello'
+greet *= 3
+print(f"After *= operation, greet = {greet}") # Output: HelloHelloHello         
+
+print("Augmented subtraction and division on string is not possible as it will throw an error")
+greet -= 'Hello' # This will throw an error
+greet /= 2 # This will throw an error
+
